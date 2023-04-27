@@ -2,9 +2,9 @@ import React from 'react';
 
 const Table = () => {
   return (
-    <div className="max-w-screen-md mx-auto">
+    <div className="mx-auto max-w-screen-md">
       <div className="container mx-auto px-5 py-8">
-        <h1 className="font-bold text-xl text-blue text-center pb-6">
+        <h1 className="pb-6 text-center text-xl font-bold text-blue">
           Portfolio
         </h1>
         <div className="overflow-x-auto shadow-sm ">
@@ -51,7 +51,7 @@ const Table = () => {
         </div>
 
         <div className="flex justify-center pt-8 pb-8">
-          <button className="inline-block bg-blue text-white px-8 py-3 rounded-[20px] font-medium">
+          <button className="inline-block rounded-[20px] bg-blue px-8 py-3 font-medium text-white">
             Submit Pitch
           </button>
         </div>

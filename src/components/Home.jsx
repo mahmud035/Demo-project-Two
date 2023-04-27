@@ -7,8 +7,8 @@ const Home = () => {
   return (
     <div>
       <Navbar />
-      <div className="max-w-screen-lg mx-auto pb-10  pt-4">
-        <div className="h-fit container sm:mx-auto rounded-3xl sm:border-2 sm:border-gray-200 ">
+      <div className="mx-auto max-w-screen-lg pb-10  pt-4">
+        <div className="container h-fit rounded-3xl sm:mx-auto sm:border-2 sm:border-gray-200 ">
           <Profile />
           <Table />
         </div>
